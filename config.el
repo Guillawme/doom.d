@@ -6,3 +6,4 @@
 
 (load "user-identity")
 (load "ui")
+(load "keybindings")

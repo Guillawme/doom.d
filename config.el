@@ -7,4 +7,5 @@
 (load "user-identity")
 (load "ui")
 (load "keybindings")
+(load "greek-letters")
 (load "org-mode")

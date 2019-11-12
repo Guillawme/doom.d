@@ -1,4 +1,4 @@
-;;; init.el -*- lexical-binding: t; -*-
+;;; ~/.doom.d/init.el -*- lexical-binding: t; -*-
 
 ;; Copy this file to ~/.doom.d/init.el or ~/.config/doom/init.el ('doom install'
 ;; will do this for you). The `doom!' block below controls what modules are

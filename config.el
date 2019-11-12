@@ -4,4 +4,5 @@
 
 (add-to-list 'load-path "~/.doom.d/config")
 
+(load "user-identity")
 (load "ui")

@@ -10,3 +10,4 @@
 (load "keybindings")
 (load "greek-letters")
 (load "org-mode")
+(load "latex")

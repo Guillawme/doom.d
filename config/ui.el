@@ -10,13 +10,11 @@
         ns-function-modifier 'hyper))
 
 ;; Theme.
-(use-package! doom-themes
-  :config
-  (load-theme 'doom-solarized-light t)
-  (setq doom-themes-enable-bold t
-        doom-themes-enable-italic t)
-  (doom-themes-visual-bell-config)
-  (doom-themes-org-config))
+(setq doom-theme 'doom-solarized-light
+      doom-themes-enable-bold t
+      doom-themes-enable-italic t)
+(doom-themes-visual-bell-config)
+(doom-themes-org-config)
 
 ;; Other interface customizations.
 (add-to-list 'default-frame-alist '(height . 54))

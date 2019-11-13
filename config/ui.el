@@ -16,6 +16,11 @@
 (doom-themes-visual-bell-config)
 (doom-themes-org-config)
 
+;; Mode line.
+(setq doom-modeline-enable-word-count t
+      doom-modeline-buffer-file-name-style 'relative-from-project
+      doom-modeline-icon t)
+
 ;; Other interface customizations.
 (add-to-list 'default-frame-alist '(height . 54))
 (add-to-list 'default-frame-alist '(width . 100))

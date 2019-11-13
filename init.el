@@ -174,6 +174,7 @@
        (write            ; emacs for writers (fiction, notes, papers, etc.)
         +wordnut         ; wordnet (wn) search
         +langtool)       ; a proofreader (grammar/style check) for Emacs
+       nov               ; an epub reader
 
        :config
        ;; For literate config users. This will tangle+compile a config.org

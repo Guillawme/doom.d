@@ -7,6 +7,7 @@
 (load "user-identity")
 (load "ui")
 (load "global-parameters")
+(load "gpg-parameters")
 (load "keybindings")
 (load "greek-letters")
 (load "org-mode")

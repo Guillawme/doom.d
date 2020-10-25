@@ -2,7 +2,7 @@
 
 ;; Place your personal configuration here
 
-(add-to-list 'load-path "~/.doom.d/config")
+(add-to-list 'load-path "~/.config/doom/config")
 
 (load "user-identity")
 (load "ui")

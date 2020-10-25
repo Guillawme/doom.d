@@ -5,7 +5,8 @@
 ;; Modifier keys on macOS.
 (when (eq system-type 'darwin)
   (setq mac-command-modifier 'meta
-        mac-option-modifier  'control
+        mac-option-modifier 'control
+        mac-right-option-modifier 'control
         mac-control-modifier 'super
         ns-function-modifier 'hyper))
 

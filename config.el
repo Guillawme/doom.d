@@ -12,3 +12,4 @@
 (load "greek-letters")
 (load "org-mode")
 (load "latex")
+(load "fish")

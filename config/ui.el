@@ -10,6 +10,12 @@
         mac-control-modifier 'super
         ns-function-modifier 'hyper))
 
+;; Smooth scrolling
+(pixel-scroll-precision-mode 1)
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
+(setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
+;(setq scroll-step 1) ;; keyboard scroll one line at a time
+
 ;; Theme.
 (setq doom-theme 'doom-solarized-light
       doom-themes-enable-bold t
